@@ -2,8 +2,7 @@ module.exports = {
     apps: [
         {
             name: "backend",
-            script: "npm",
-            args: "start",
+            script: "./index.js",
 
             instances: 1,
             exec_mode: "fork",
